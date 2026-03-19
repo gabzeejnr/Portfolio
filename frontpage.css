@@ -1,0 +1,191 @@
+body{
+    background-color: #F9F9F9;
+}
+
+.everything{
+    position: relative;
+    flex-direction: row;
+    text-align: center;
+}
+
+#links{
+    display: flex;
+    color: white;
+}
+
+.nav{
+    flex: 1;
+    padding: 10px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav h3{
+  text-align: left;
+}
+
+#info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+
+#top{
+  background-image: url(https://image2url.com/r2/default/images/1773956134499-5435e908-5895-42a0-8217-1cda6da4d9f9.webp);
+  background-size: cover;
+}
+
+#top_text{
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.top_icons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.top_icons a{
+  text-decoration: none;
+  color: white;
+}
+
+#hello{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#middle{
+  background-color: white;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 20px;
+}
+
+.details{
+  flex: 1;
+}
+
+h2 strong{
+  padding: 0;
+  margin: 0;
+}
+
+#imagebox{
+  background-color: #F9F9F9;
+  flex: 0 0 300px;
+}
+
+#imagebox img{
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+}
+
+#about{
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  flex: 0 0 400px;
+}
+
+.bars{
+  margin-top: 20px;
+}
+
+.Web_Design, .branding, .development{
+  background-color: darkgrey;
+}
+
+
+.filled{
+  background-color: black;
+  color: white;
+  display: flex;
+  box-shadow: 0.5px 1px 20px grey;
+}
+
+#filled1{
+  max-width: 95%;
+}
+
+#filled2{
+  max-width: 80%;
+}
+
+#filled3{
+  max-width: 90%;
+}
+
+.percentage{
+  justify-content: right;
+  text-align: right;
+  align-self: right;
+  align-self: right;
+  margin-left: auto;
+}
+
+button{
+  border-radius: 5px;
+  width: 27%;
+  height: 30px;
+  border: 1px solid;
+}
+
+#download_cv{
+  background-color: black;
+  color: white;
+}
+
+#download_cv a{
+  text-decoration: none;
+  color: white;
+}
+
+#contact{
+  background-color: #F9F9F9;
+}
+
+#services{
+  font-size: 70px;
+  margin: 20px;
+}
+
+.cards{
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 20px;
+  padding: 100px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;   /* rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* soft shadow */
+  text-align: center;
+}
+
+.icons i{
+  background-color: #F9F9F9;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  line-height: 50px;
+}
