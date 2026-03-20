@@ -107,6 +107,10 @@ h2 strong{
   margin-top: 20px;
 }
 
+.bars a{
+  text-decoration: none;
+}
+
 .Web_Design, .branding, .development{
   background-color: darkgrey;
 }
@@ -183,8 +187,8 @@ button{
 
 .icons i{
   background-color: #F9F9F9;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
@@ -203,6 +207,7 @@ button{
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    font-size: 80%;
   }
 
   /* HERO TEXT */
