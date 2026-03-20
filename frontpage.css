@@ -111,6 +111,28 @@ h2 strong{
   text-decoration: none;
 }
 
+.contact_icons{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact_icons a{
+  font-size: 30px;
+  text-decoration: none;
+  gap: 200px;
+  color
+}
+
+#whatsapp{
+  color: green;
+}
+
+#email{
+  color: #D44638;
+}
+
 .Web_Design, .branding, .development{
   background-color: darkgrey;
 }
@@ -238,6 +260,7 @@ button{
   button{
   width: 50%;
   margin-bottom: 10px;
+  border-radius: 10px;
   }
 
   /* CARDS */
