@@ -183,6 +183,10 @@ a{
   width: 75%;
 }
 
+.backend .bar{
+  width: 35%;
+}
+
 .client_numbers{
   margin-top: 70px;
   display: flex;
