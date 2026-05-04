@@ -15,8 +15,21 @@
         <div class="inside_top">
           <!--Desktop View-->
           <div class="navbar">
-            <a href="#">HOME</a>
-            <i class="fa-solid fa-bars"></i>
+            <div class="nav-left">
+              <a href="#top">HOME</a>
+              <a href="#about">ABOUT</a>
+              <a href="#portfolio">PORTFOLIO</a>
+              <a href="#contact">CONTACT</a>
+            </div>
+            <i class="fa-solid fa-bars" id="menuToggle"></i>
+          </div>
+
+          <!-- Mobile menu -->
+          <div class="mobile-menu" id="mobileMenu">
+            <a href="#top">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#contact">CONTACT</a>
           </div>
           <div class="logo_wrapper">
             <div class="logo_area">MY LOGO</div>
@@ -48,6 +61,15 @@
               </span>
               <div class="bars">
                 <div class="bar">70%</div>
+              </div>
+            </div>
+            <div class="backend">
+              <span>
+                <i class="fa-brands fa-node-js"></i>
+                B&emsp;a&emsp;c&emsp;k&emsp;e&emsp;n&emsp;d&emsp;&emsp;D&emsp;e&emsp;s&emsp;i&emsp;g&emsp;n&emsp;
+              </span>
+              <div class="bars">
+                <div class="bar">35%</div>
               </div>
             </div>
             <div class="photography">
@@ -84,6 +106,14 @@
         <div class="portfolio">
           PORTFOLIO
         </div>
-      </section>
+        
+      </section><!--Portfolio-->
+      <script>
+        const toggle = document.getElementById("menuToggle");
+        const menu = document.getElementById("mobileMenu");
+        toggle.addEventListener("click", () => {
+          menu.classList.toggle("active");
+        });
+    </script>
   </body>
 </html>
